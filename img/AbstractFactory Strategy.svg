@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="87cm" height="64cm" viewBox="-365 -370 1728 1271" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-359.793" y="746.393" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-359.793" y="746.393" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-162.293" y="765.393">EmptyPhotoReadingResult</text>
+    <rect style="fill: #ffffff" x="-359.793" y="774.393" width="395" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-359.793" y="774.393" width="395" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-356.793" y="788.393">-strategy: ISerializerStrategy</text>
+    <rect style="fill: #ffffff" x="-359.793" y="794.393" width="395" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-359.793" y="794.393" width="395" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-356.793" y="808.393">+toString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-356.793" y="824.393">+setFormatter(strategy:ISerializerStrategy*): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-363.543" y="110.36" width="441.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-363.543" y="110.36" width="441.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="-142.943" y="129.36">IPhotoReadingResult</text>
+    <rect style="fill: #ffffff" x="-363.543" y="138.36" width="441.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-363.543" y="138.36" width="441.2" height="8"/>
+    <rect style="fill: #ffffff" x="-363.543" y="146.36" width="441.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-363.543" y="146.36" width="441.2" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-360.543" y="160.36">+&lt;&lt;virtual&gt;&gt; toString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-360.543" y="176.36">+&lt;&lt;virtual&gt;&gt; setFormatter(strategy:ISerializerStrategy*)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-142.943,201.605 -142.943,472.379 -162.293,472.379 -162.293,745.388 "/>
+    <polygon style="fill: #ffffff" points="-134.943,201.605 -142.943,185.605 -150.943,201.605 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-134.943,201.605 -142.943,185.605 -150.943,201.605 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="577" y="140" width="525.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="577" y="140" width="525.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="839.95" y="159">IPhotoReadingResultFactory</text>
+    <rect style="fill: #ffffff" x="577" y="168" width="525.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="577" y="168" width="525.9" height="8"/>
+    <rect style="fill: #ffffff" x="577" y="176" width="525.9" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="577" y="176" width="525.9" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="580" y="190">+&lt;&lt;virtual&gt;&gt; constructReadingResult(number:string,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="580" y="206">                                    confidence:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="580" y="222">                                    type:int): IPhotoReadingResult*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="266.09" y="-286.45" width="387.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="266.09" y="-286.45" width="387.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="459.74" y="-267.45">ISerializerStrategy</text>
+    <rect style="fill: #ffffff" x="266.09" y="-258.45" width="387.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="266.09" y="-258.45" width="387.3" height="8"/>
+    <rect style="fill: #ffffff" x="266.09" y="-250.45" width="387.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="266.09" y="-250.45" width="387.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="269.09" y="-236.45">+&lt;&lt;virtual&gt;&gt; serialize(keys:string*,vals:string*,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="269.09" y="-220.45">                       len:int): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="269.09" y="-204.45">+&lt;&lt;virtual&gt;&gt; dummySerialize(): string</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="462.334" y="412.092" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="462.334" y="412.092" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="679.084" y="431.092">JSONPhotoReadingResultFactory</text>
+    <rect style="fill: #ffffff" x="462.334" y="440.092" width="433.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="462.334" y="440.092" width="433.5" height="8"/>
+    <rect style="fill: #ffffff" x="462.334" y="448.092" width="433.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="462.334" y="448.092" width="433.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="465.334" y="462.092">+constructReadingResult(number:string,confidence:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="465.334" y="478.092">                        type:int): IPhotoReadingResult*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="839.95,247.242 839.95,328.044 679.084,328.044 679.084,411.083 "/>
+    <polygon style="fill: #ffffff" points="847.95,247.242 839.95,231.242 831.95,247.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="847.95,247.242 839.95,231.242 831.95,247.242 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1073.34" y1="482.008" x2="623" y2="715.068"/>
+    <polygon style="fill: #000000" points="616.339,718.515 622.922,709.478 623,715.068 627.518,718.359 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="616.339,718.515 622.922,709.478 623,715.068 627.518,718.359 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="143.097" y="-73.7047" width="418.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="143.097" y="-73.7047" width="418.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="352.147" y="-54.7047">JSONSerializerStrategy</text>
+    <rect style="fill: #ffffff" x="143.097" y="-45.7047" width="418.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="143.097" y="-45.7047" width="418.1" height="8"/>
+    <rect style="fill: #ffffff" x="143.097" y="-37.7047" width="418.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="143.097" y="-37.7047" width="418.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="146.097" y="-23.7047">+serialize(keys:string*,vals:string*,len:int): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="146.097" y="-7.70474">+dummySerialize(): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="459.74,-179.209 459.74,-128.079 352.147,-128.079 352.147,-74.7138 "/>
+    <polygon style="fill: #ffffff" points="467.74,-179.209 459.74,-195.209 451.74,-179.209 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="467.74,-179.209 459.74,-195.209 451.74,-179.209 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="244.883" y="720.534" width="387.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="244.883" y="720.534" width="387.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="438.533" y="739.534">SuccessfulPhotoReadingResult</text>
+    <rect style="fill: #ffffff" x="244.883" y="748.534" width="387.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="244.883" y="748.534" width="387.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="762.534">-plateNumber: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="778.534">-confidence: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="794.534">-type: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="810.534">-strategy: ISerializerStrategy*</text>
+    <rect style="fill: #ffffff" x="244.883" y="816.534" width="387.3" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="244.883" y="816.534" width="387.3" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="830.534">+toString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="846.534">+setFormatter(strategy:ISerializerStrategy*)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="862.534">+SuccessfulPhotoReadingResult(plateNumber:string,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="878.534">                              confidence:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="247.883" y="894.534">                              type:int)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-142.943,200.596 -142.943,458.944 438.533,458.944 438.533,719.528 "/>
+    <polygon style="fill: #ffffff" points="-134.943,200.596 -142.943,184.596 -150.943,200.596 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-134.943,200.596 -142.943,184.596 -150.943,200.596 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="928.082" y="409.007" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="928.082" y="409.007" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1144.83" y="428.007">XMLPhotoReadingResultFactory</text>
+    <rect style="fill: #ffffff" x="928.082" y="437.007" width="433.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="928.082" y="437.007" width="433.5" height="8"/>
+    <rect style="fill: #ffffff" x="928.082" y="445.007" width="433.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="928.082" y="445.007" width="433.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="931.082" y="459.007">+constructReadingResult(number:string,confidence:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="931.082" y="475.007">                        type:int): IPhotoReadingResult*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="839.95,247.242 839.95,326.502 1144.83,326.502 1144.83,407.998 "/>
+    <polygon style="fill: #ffffff" points="847.95,247.242 839.95,231.242 831.95,247.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="847.95,247.242 839.95,231.242 831.95,247.242 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="582.627" y="-75.247" width="418.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="582.627" y="-75.247" width="418.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="791.677" y="-56.247">XMLSerializerStrategy</text>
+    <rect style="fill: #ffffff" x="582.627" y="-47.247" width="418.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="582.627" y="-47.247" width="418.1" height="8"/>
+    <rect style="fill: #ffffff" x="582.627" y="-39.247" width="418.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="582.627" y="-39.247" width="418.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="585.627" y="-25.247">+serialize(keys:string*,vals:string*,len:int): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="585.627" y="-9.24696">+dummySerialize(): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="459.74,-179.209 459.74,-128.85 791.677,-128.85 791.677,-76.256 "/>
+    <polygon style="fill: #ffffff" points="467.74,-179.209 459.74,-195.209 451.74,-179.209 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="467.74,-179.209 459.74,-195.209 451.74,-179.209 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="654.528" y1="485.09" x2="504.304" y2="711.435"/>
+    <polygon style="fill: #000000" points="500.157,717.684 501.521,706.587 504.304,711.435 509.852,712.117 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="500.157,717.684 501.521,706.587 504.304,711.435 509.852,712.117 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="103.835,146.36 179.377,146.36 179.377,-272.45 266.09,-272.45 "/>
+    <polygon style="fill: #ffffff" points="78.6635,146.36 92.6635,141.56 106.664,146.36 92.6635,151.16 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="78.6635,146.36 92.6635,141.56 106.664,146.36 92.6635,151.16 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="110.664" y="142.36">1</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="587.624" y1="485.084" x2="-46.9396" y2="741.738"/>
+    <polygon style="fill: #000000" points="-53.8924,744.55 -46.4967,736.165 -46.9396,741.738 -42.7472,745.436 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-53.8924,744.55 -46.4967,736.165 -46.9396,741.738 -42.7472,745.436 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1004.02" y1="481.999" x2="10.6738" y2="742.955"/>
+    <polygon style="fill: #000000" points="3.41989,744.86 11.8213,737.483 10.6738,742.955 14.3621,747.155 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="3.41989,744.86 11.8213,737.483 10.6738,742.955 14.3621,747.155 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1117.89" y1="408.062" x2="824.357" y2="5.56512"/>
+    <polygon style="fill: #000000" points="819.938,-0.494619 829.87,4.63888 824.357,5.56512 821.79,10.5312 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="819.938,-0.494619 829.87,4.63888 824.357,5.56512 821.79,10.5312 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="654.5" y1="411.562" x2="382.167" y2="6.90211"/>
+    <polygon style="fill: #000000" points="377.979,0.679963 387.711,6.18452 382.167,6.90211 379.414,11.7678 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="377.979,0.679963 387.711,6.18452 382.167,6.90211 379.414,11.7678 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1128.19" y="-368.188" width="54.35" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1128.19" y="-368.188" width="54.35" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1155.36" y="-349.188">main</text>
+    <rect style="fill: #ffffff" x="1128.19" y="-340.188" width="54.35" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1128.19" y="-340.188" width="54.35" height="8"/>
+    <rect style="fill: #ffffff" x="1128.19" y="-332.188" width="54.35" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1128.19" y="-332.188" width="54.35" height="8"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1141.68" y1="-323.196" x2="871.697" y2="130.636"/>
+    <polygon style="fill: #000000" points="867.862,137.082 868.678,125.931 871.697,130.636 877.272,131.044 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="867.862,137.082 868.678,125.931 871.697,130.636 877.272,131.044 "/>
+  </g>
+</svg>

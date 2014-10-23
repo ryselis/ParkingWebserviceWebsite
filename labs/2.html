@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Parkingo saityno tarnyba</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+</head>
+<body>
+<div>
+    <img src="../img/c++-logo.png" class="main-img">
+    <img src="../img/Python-logo-notext.svg.png" class="main-img">
+    <img src="../img/dj-neg2.sh-600x600.png" class="main-img">
+</div>
+<h1>Parkingo saityno tarnyba</h1>
+
+<div class="labs-menu">
+    <ul>
+        <li>
+            <a href="../description.html">Darbo aprašymas</a>
+        </li>
+        <li>
+            <a href="1.html">Laboratorinis darbas 1</a>
+        </li>
+        <li>
+            <a href="2.html">Laboratorinis darbas 2</a>
+        </li>
+        <li>
+            <div>Laboratorinis darbas 3</div>
+        </li>
+        <li>
+            <div>Laboratorinis darbas 4</div>
+        </li>
+    </ul>
+</div>
+
+<div class="content">
+    <ul>
+        <li>
+            <div>Pasirinkti šablonai</div>
+            <div class="text-container"><p>Abstract factory & Strategy</p></div>
+        </li>
+        <li>
+            <a href="../img/AbstractFactory%20Strategy.svg">Klasių diagrama</a>
+        </li>
+        <li>
+            <div>Pagrindimas</div>
+            <div class="text-container">
+                <p>Factory pagrindimas: kadangi sistemoje galimi du rezultatų tipai - tuščias ir sėkmingas -
+                tai tikslinga turi šiems tipams sąsają ir juos realizuoti kaip dvi skirtingas klases. Priklausomai nuo
+                numerių skaitymo algoritmo rezultato reikia parinkti, koks rezultatas bus formuojamas. Šią užduotį gali atlikti
+                Factory. </p>
+                <p>Strategy pagrindimas: kadangi sistemoje rezultatus reikia pateikti dviem formatais - XML ir JSON -
+                tai tikslinga sukurti jiems po serializatorių klasę, kurią jungia bendra sąsaja, ir jų objektus kaip
+                strategijas perduoti rezulatams, kad jie galėtų save išsispausdinti.</p>
+                <p>Abstract factory pagrindimas: kadangi kūrėme factory, kuri sugeneruoja rezultatą, tai ir strategijos
+                nustatymas turėtų vykti ten. Siekiant atskirti serializatoriaus parinkimą sukuriame Factory sąsają ir
+                realizuojame po factory abiems algoritmams</p>
+                <p>Šių dviejų šablonų panaudojimas leidžia be jokių esamų klasių modifikacijų pridėti tiek naujus
+                rezultatų tipus, tiek spausdinimo formatus</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
