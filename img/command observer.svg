@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="84cm" height="53cm" viewBox="-183 26 1679 1056" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="176" y="145" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="176" y="145" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="342.7" y="164">IPhotoReaderCommand</text>
+    <rect style="fill: #ffffff" x="176" y="173" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="176" y="173" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="179" y="187">#photoDataExtractor: PhotoDataExtractor</text>
+    <rect style="fill: #ffffff" x="176" y="193" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="176" y="193" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="179" y="207">+execute(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="179" y="223">+IPhotoReaderCommand(p:PhotoDataExtractor)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-181.4" y="377.3" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-181.4" y="377.3" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-14.7" y="396.3">PhotoConfidenceCommand</text>
+    <rect style="fill: #ffffff" x="-181.4" y="405.3" width="333.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-181.4" y="405.3" width="333.4" height="8"/>
+    <rect style="fill: #ffffff" x="-181.4" y="413.3" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-181.4" y="413.3" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-178.4" y="427.3">+execute(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-178.4" y="443.3">+IPhotoReaderCommand(p:PhotoDataExtractor)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="342.7,248.241 342.7,311.148 -14.7,311.148 -14.7,376.291 "/>
+    <polygon style="fill: #ffffff" points="350.7,248.241 342.7,232.241 334.7,248.241 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="350.7,248.241 342.7,232.241 334.7,248.241 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="536.6" y="380.3" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="536.6" y="380.3" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="703.3" y="399.3">PhotoCountryTypeCommand</text>
+    <rect style="fill: #ffffff" x="536.6" y="408.3" width="333.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="536.6" y="408.3" width="333.4" height="8"/>
+    <rect style="fill: #ffffff" x="536.6" y="416.3" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="536.6" y="416.3" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="539.6" y="430.3">+execute(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="539.6" y="446.3">+IPhotoReaderCommand(p:PhotoDataExtractor)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="342.7,248.241 342.7,312.648 703.3,312.648 703.3,379.291 "/>
+    <polygon style="fill: #ffffff" points="350.7,248.241 342.7,232.241 334.7,248.241 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="350.7,248.241 342.7,232.241 334.7,248.241 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="175.6" y="381.3" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="175.6" y="381.3" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="342.3" y="400.3">PhotoPlateNumberCommand</text>
+    <rect style="fill: #ffffff" x="175.6" y="409.3" width="333.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="175.6" y="409.3" width="333.4" height="8"/>
+    <rect style="fill: #ffffff" x="175.6" y="417.3" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="175.6" y="417.3" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="178.6" y="431.3">+execute(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="178.6" y="447.3">+IPhotoReaderCommand(p:PhotoDataExtractor)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="342.7,248.241 342.7,313.653 342.3,313.653 342.3,381.3 "/>
+    <polygon style="fill: #ffffff" points="350.7,248.241 342.7,232.241 334.7,248.241 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="350.7,248.241 342.7,232.241 334.7,248.241 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1069.6" y="607.25" width="425.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1069.6" y="607.25" width="425.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1282.5" y="626.25">DataExtractor</text>
+    <rect style="fill: #ffffff" x="1069.6" y="635.25" width="425.8" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1069.6" y="635.25" width="425.8" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="649.25">-filename: const char</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="665.25">-photoReadingResult: PhotoReadingResult</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="681.25">-dataRead: bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="697.25">-readingEngine: cmAnpr</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="713.25">-image: gxImage</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="729.25">-observers: vector</text>
+    <rect style="fill: #ffffff" x="1069.6" y="735.25" width="425.8" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1069.6" y="735.25" width="425.8" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="749.25">-extractDataFromPhoto(): PhotoReadingResult</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="765.25"> PhotoDataExtractor()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="781.25">+PhotoDataExtractor(filename:const char)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="797.25">+PhotoDataExtractor(other:const PhotoDataExtractor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="813.25">+extractConfidence(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="829.25">+extractCountryCode(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="845.25">+extractPlanteNumber(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="861.25">+addObserver(observer:IPhotoReaderDataReadObserver)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="877.25">+removeObserver(observer:IPhotoReaderDataReadObserver)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1072.6" y="893.25">+notify()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1255.4" y="27.25" width="54.35" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1255.4" y="27.25" width="54.35" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1282.57" y="46.25">main</text>
+    <rect style="fill: #ffffff" x="1255.4" y="55.25" width="54.35" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1255.4" y="55.25" width="54.35" height="8"/>
+    <rect style="fill: #ffffff" x="1255.4" y="63.25" width="54.35" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1255.4" y="63.25" width="54.35" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-14.7,450.309 -14.7,520.775 1282.5,520.775 1282.5,601.769 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1274.5,588.005 1282.5,604.005 1290.5,588.005 "/>
+    <polygon style="fill: #000000" points="635.901,520.775 635.901,512.775 643.901,516.775 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="342.3,454.309 342.3,522.775 1282.5,522.775 1282.5,601.769 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1274.5,588.005 1282.5,604.005 1290.5,588.005 "/>
+    <polygon style="fill: #000000" points="814.401,522.775 814.401,514.775 822.401,518.775 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="703.3,453.309 703.3,522.275 1282.5,522.275 1282.5,601.769 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1274.5,588.005 1282.5,604.005 1290.5,588.005 "/>
+    <polygon style="fill: #000000" points="994.901,522.275 994.901,514.275 1002.9,518.275 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1282.57,72.2556 1282.57,339.248 1282.5,339.248 1282.5,606.241 "/>
+    <polygon style="fill: #000000" points="1284.54,339.248 1284.54,331.248 1292.54,335.248 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1282.57,72.2556 1282.57,108.125 342.7,108.125 342.7,139.523 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="334.7,125.759 342.7,141.759 350.7,125.759 "/>
+    <polygon style="fill: #000000" points="814.636,108.125 814.636,100.125 822.636,104.125 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="440.07" y="824.5" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440.07" y="824.5" width="318" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="599.07" y="843.5">IPhotoReaderDataReadObserver</text>
+    <rect style="fill: #ffffff" x="440.07" y="852.5" width="318" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440.07" y="852.5" width="318" height="8"/>
+    <rect style="fill: #ffffff" x="440.07" y="860.5" width="318" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440.07" y="860.5" width="318" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="443.07" y="874.5">+(photoReadingResult:PhotoReadingResult)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="196.976" y="1024.5" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="196.976" y="1024.5" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="413.726" y="1043.5">PrintingPhotoReaderDataReadObserver</text>
+    <rect style="fill: #ffffff" x="196.976" y="1052.5" width="433.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="196.976" y="1052.5" width="433.5" height="8"/>
+    <rect style="fill: #ffffff" x="196.976" y="1060.5" width="433.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="196.976" y="1060.5" width="433.5" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="199.976" y="1074.5">+receiveDataRead(photoReadingResult:PhotoReadingResult)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="599.07,899.743 599.07,960.5 413.726,960.5 413.726,1023.49 "/>
+    <polygon style="fill: #ffffff" points="607.07,899.743 599.07,883.743 591.07,899.743 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="607.07,899.743 599.07,883.743 591.07,899.743 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="671.576" y="1023.8" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="671.576" y="1023.8" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="888.326" y="1042.8">SerializingPhotoReaderDataReadObserver</text>
+    <rect style="fill: #ffffff" x="671.576" y="1051.8" width="433.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="671.576" y="1051.8" width="433.5" height="8"/>
+    <rect style="fill: #ffffff" x="671.576" y="1059.8" width="433.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="671.576" y="1059.8" width="433.5" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="674.576" y="1073.8">+receiveDataRead(photoReadingResult:PhotoReadingResult)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="599.07,899.743 599.07,960.15 888.326,960.15 888.326,1022.79 "/>
+    <polygon style="fill: #ffffff" points="607.07,899.743 599.07,883.743 591.07,899.743 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="607.07,899.743 599.07,883.743 591.07,899.743 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1043.42,753.25 906.837,753.25 906.837,852.5 759.079,852.5 "/>
+    <polygon style="fill: #ffffff" points="1068.6,753.25 1054.6,758.05 1040.6,753.25 1054.6,748.45 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1068.6,753.25 1054.6,758.05 1040.6,753.25 1054.6,748.45 "/>
+  </g>
+</svg>

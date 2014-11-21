@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Parkingo saityno tarnyba</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+</head>
+<body>
+<div>
+    <img src="../img/c++-logo.png" class="main-img">
+    <img src="../img/Python-logo-notext.svg.png" class="main-img">
+    <img src="../img/dj-neg2.sh-600x600.png" class="main-img">
+</div>
+<h1>Parkingo saityno tarnyba</h1>
+
+<div class="labs-menu">
+    <ul>
+        <li>
+            <a href="../description.html">Darbo aprašymas</a>
+        </li>
+        <li>
+            <a href="1.html">Laboratorinis darbas 1</a>
+        </li>
+        <li>
+            <a href="2.html">Laboratorinis darbas 2</a>
+        </li>
+        <li>
+            <a href="3.html">Laboratorinis darbas 3</a>
+        </li>
+        <li>
+            <div>Laboratorinis darbas 4</div>
+        </li>
+    </ul>
+</div>
+
+<div class="content">
+    <ul>
+        <li>
+            <div>Pasirinkti šablonai</div>
+            <div class="text-container"><p>Command & Observer</p></div>
+        </li>
+        <li>
+            <a href="../img/command%20observer.svg">Klasių diagrama</a>
+        </li>
+        <li>
+            <div>Pagrindimas</div>
+            <div class="text-container">
+                <p>Command pagrindimas: Sistema grąžina tris nuotraukų, naudojamų numerių atpažinimui, parametrus:
+                perskaitytą numerį, patikimumą ir numerio tipą (informacija apie šalį ir formatą). Šiuo tikslu sukurtos
+                komandos, kurios paima šiuos parametrus iš nuotraukų skaitymo variklio.</p>
+                <p>Observer pagrindimas: kadangi Command šablone naudojami rezultatai gali būti reikalingi keliose
+                vietose ir jų teikiamos informacijos reikia iškart, kai tik ji pasiekiama, realizuojame objektus, kurie
+                gali sužinoti apie naują nuotraukos išskaitymą, o numerių atpažinimo klasė papildoma metodais, skirtais
+                pranešimų siuntimui bei objektų registravimui.</p>
+                <p>Šių dviejų šablonų panaudojimas leidžia lanksčiai kontroliuoti nuotraukų skaitymo procesą pasiekiant
+                rezultatus tiek jų tiesiogiai paprašant, tiek reaguojant į kitose vietose atliktus kreipinius.</p>
+            </div>
+        </li>
+        <li>
+            <div>Kodas</div>
+            <div class="text-container">
+                <ul>
+                    <li><a href="http://pastebin.com/eX31A5YS">IPhotoReaderCommand</a></li>
+                    <li><a href="http://pastebin.com/XuPxczmk">IPhotoReaderDataReadObserver</a></li>
+                    <li><a href="http://pastebin.com/dDwfyWne">PhotoConfidenceCommand</a></li>
+                    <li><a href="http://pastebin.com/fkbFz8gU">PhotoCountryCodeCommand</a></li>
+                    <li><a href="http://pastebin.com/nPapxy0E">PhotoDataExtractor</a></li>
+                    <li><a href="http://pastebin.com/xbzYN782">PhotoPlateNumberCommand</a></li>
+                    <li><a href="http://pastebin.com/JHN8CYF8">PrintingPhotoReaderDataReadObserver</a></li>
+                    <li><a href="http://pastebin.com/aqBKQJf0">SerializingPhotoReaderDataReadObserver</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
