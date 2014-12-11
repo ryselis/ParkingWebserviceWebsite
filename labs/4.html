@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Parkingo saityno tarnyba</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+</head>
+<body>
+<div>
+    <img src="../img/c++-logo.png" class="main-img">
+    <img src="../img/Python-logo-notext.svg.png" class="main-img">
+    <img src="../img/dj-neg2.sh-600x600.png" class="main-img">
+</div>
+<h1>Parkingo saityno tarnyba</h1>
+
+<div class="labs-menu">
+    <ul>
+        <li>
+            <a href="../description.html">Darbo aprašymas</a>
+        </li>
+        <li>
+            <a href="1.html">Laboratorinis darbas 1</a>
+        </li>
+        <li>
+            <a href="2.html">Laboratorinis darbas 2</a>
+        </li>
+        <li>
+            <a href="3.html">Laboratorinis darbas 3</a>
+        </li>
+        <li>
+            <a href="4.html">Laboratorinis darbas 4</a>
+        </li>
+    </ul>
+</div>
+
+<div class="content">
+    <ul>
+        <li>
+            <div>Pasirinkti šablonai</div>
+            <div class="text-container"><p>Chain of Responsibility, State, Adapter, Null Object</p></div>
+        </li>
+        <li>
+            <a href="../img/L4%20šablonskis.svg">Klasių diagrama</a>
+        </li>
+        <li>
+            <div>Pagrindimas</div>
+            <div class="text-container">
+            <p>Chain of Responsibility: Sistemoje reikalingas duomenų importas iš JSON formato. Jame bet kuris
+                parametras gali būti nurodytas arba nenurodytas. Parametrai gali būti dvejų tipų: integer ir string.
+                Sukuriame dvi klases, realizuojančias tokių parametrų išskaitymą iš JSON ir kiekvienam galimam parametrui
+                sukuriame po objektą. Visus objektus sujungiame į grandinėlę ir pakanka iškviesti tik pimojo objekto
+                skaitymo metodą - visa skaitymo logika iškeliama iš skaitančios klasės bei pakanka vieno metodo iškvietimo.
+            </p>
+                <p>
+                    State: Nuotraukos duomenų išskaitymo objektas nuotrauką skaito ne iš karto, o tik tada, kai jau
+                    reikia duomenų (lazy evaluation). Dėl to galima išskirti dvi būsenas - perskaitytų ir neperskaitytų
+                    duomenų. Jei duomenys dar neskaityti, reikia juos skaityti. Kad nereikėtų tokių tikrinimų, šią
+                    logiką iškeliame į būsenų klases ir supaprastiname nuotraukos skaitymo metodą.
+                </p>
+                <p>Adapter:
+                    Seniau sistemoje buvo naudojama struktūra PhotoReadingResult. Atsiradus naujoms klasės jos naudoti
+                    nebereikėtų, tačiau sename kode ji yra likusi ir paprasčiau yra padaryti adapterį, kuris pritaikys
+                    sąsajas tarp objektų.
+                </p>
+                <p>
+                    Null object: sistemoje galimi du rezultatų tipai: sėkmingas ir nesėkmingas. Kad nereikėtų kiekvieną
+                    kartą tikrinti, ar rezultatas tuščias, ar ne, nustatome, kaip turėtų sistema elgtis tais atvejais,
+                    kai jis tuščias iš sukuriame klasę, kuri paveldi tą pačią sąsają, ir naudojame, kai rezultatų nėra.
+                    Tai sutaupys mums labai daug patikrinimų kode.
+                </p>
+                <p>
+                    Dependency injection: rezultatų objektai moka save atsispausdinti, tačiau tam jiems reikia
+                    spausdinti mokančių objektų. Kad būtų paprastenė  rezultatų klasė, išorinius objektus sukuriame
+                    Factory klasėje ir dinamiškai nusprendžiame, kokį objektą paduoti - rezultatų klasė nuo to atribojama.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div>Kodas</div>
+            <div class="text-container">
+                <ul>
+                    <li><a href="http://pastebin.com/uBP7x8fd">ISettingsSetter</a></li>
+                    <li><a href="http://pastebin.com/teL7E2e8">IntegerSettingsSetter</a> </li>
+                    <li><a href="http://pastebin.com/G0b1bapZ">StringSettingsSetter</a> </li>
+                    <li><a href="http://pastebin.com/UCKRT0gU">JSONResource</a> </li>
+                    <li><a href="http://pastebin.com/wPWwD65L">IState</a> </li>
+                    <li><a href="http://pastebin.com/mdicBzu1">StateNotRead</a></li>
+                    <li><a href="http://pastebin.com/Pz7cR66x">StateRead</a></li>
+                    <li><a href="http://pastebin.com/eFKxwy9z">PhotoDataExtractor</a></li>
+                    <li><a href="http://pastebin.com/CN5S7Mrm">IPhotoReaderDataReadObserver</a></li>
+                    <li><a href="http://pastebin.com/UyVvEeQf">PhotoReadingResult</a></li>
+                    <li><a href="http://pastebin.com/BSrVaW5B">IPhotoReadingResult</a></li>
+                    <li><a href="http://pastebin.com/mGZ7Lfkk">EmptyPhotoReadingResult</a></li>
+                    <li><a href="http://pastebin.com/3wVb9dbC">SuccessfulPhotoReadingResult</a></li>
+                    <li><a href="http://pastebin.com/J1UXpcnt">SuccessfulPhotoReadingResultAdapter</a> </li>
+                    <li><a href="http://pastebin.com/uM01rrLp">JSONPhotoReadingResultFactory</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
